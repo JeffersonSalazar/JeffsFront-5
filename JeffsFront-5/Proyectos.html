@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Web Site</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="Librerias/MDB/bootstrap.min.css">
+  <!-- Diseños Css -->
+  <link rel="stylesheet" href="Diseño Css/Generales.css">
+  <link rel="stylesheet" href="Diseño Css/HeaderNav.css">
+  <link rel="stylesheet" href="Diseño Css/Articulos.css">
+  <link rel="stylesheet" href="Diseño Css/Formulario.css">
+  <link rel="stylesheet" href="Diseño Css/Footer.css">
+  <!-- Iconos Fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Fuentes -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer|Noto+Sans|Sriracha|Tomorrow&display=swap">
+</head>
+
+<body>
+  <div class="container border px-5" id="contentPadre">
+
+    <!-- HeaderNav -->
+    <header class="" id="headerNav">
+      <div class="mt-5">
+          <a href="#" class="navbar-brand nitEmpresarial" title="Ir a la pagina Principal">Proyecto Web</a>
+      </div>
+
+      <div class="" id="menuNav">
+        <nav class="navbar navbar-expand-lg">
+          <span class="d-lg-none">MENU</span>
+        
+          <button class="navbar-toggler" 
+            type="button" data-toggle="collapse" 
+            data-target="#clikNav" aria-controls="clikNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="clikNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Propositos.html">PROPOSITOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Logros.html">LOGROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Metas.html">METAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Proyectos.html">PROYECTOS</a>
+              </li>
+            </ul>
+  
+            <form class="form-inline">
+              <input type="text" class="form-control w-75" placeholder="Search" aria-label="Search">
+              <a href="#"><i class="fas fa-search p-2 text-white"></i></a>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Formulario -->
+    <form action="#" method="POST" id="formulario">
+        <h2 class="text-center">!REGISTRATE AHORA¡</h2>
+      <div class="col-12 col-lg-4 mx-auto mt-3 border formEdit">
+        <div class="form-group p-3">
+          <input type="text" name="nombre" class="form-control" id="usuario" placeholder="Ingrese su usuario" maxlength="50">
+          <input type="text" name="email" class="form-control" id="correo" placeholder="Ingrese su correo" maxlength="50">
+          <input type="password" name="contraseña" class="form-control" id="clave" placeholder="Ingrese su contraseña" maxlength="50">
+        </div>
+      
+        <div class="d-flex justify-content-around">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="recordarme">
+            <label class="custom-control-label" for="recordarme">Recordame</label>
+          </div>
+          <div>
+            <a href="#">Olvido su contraseña?</a>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <input type="submit" value="INGRESAR" class="btn my-5" id="botonForm">
+        </div>
+      </div>
+    </form>
+
+    <!-- Footer -->
+    <footer class="" id="footer">
+        <span class="text-white">Copyright &copy; derechos reservados</span>
+      <div class="">
+        <a href="#"><i class="fab fa-facebook-f btn iconos" title="Ir a Facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram btn iconos" title="Ir a Instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter btn iconos" title="Ir a Twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in btn iconos" title="Ir a Linkedin"></i></a>
+      </div>   
+        <span><i class="fas fa-chevron-up goTop" title="Volver arriba"></i></span>
+    </footer>
+  
+  </div>  
+
+  <!-- Script Bootstrap -->
+  <script src="Librerias/JS/jquery.min.js"></script>
+  <script src="Librerias/JS/popper.min.js"></script>
+  <script src="Librerias/JS/bootstrap.min.js"></script>
+  <!-- Script jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Script JS -->
+  <script src="program.js"></script>
+</body>
+</html>

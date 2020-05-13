@@ -1,0 +1,14 @@
+/* Estilos para Dispositivos Movil */
+#articulos {
+    background-color: white;
+    padding: 0 1.5rem;
+    margin: 4rem 0;
+}
+
+#articulos .bgCard {
+    color: white;
+    background-color: #262626;
+    box-shadow: 0 1rem 1rem 0 rgba(128, 128, 128, 0.767);
+}
+
+/* Estilos para Pantalla FullScreen */

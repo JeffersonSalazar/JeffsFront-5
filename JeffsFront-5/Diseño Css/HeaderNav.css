@@ -1,0 +1,48 @@
+/* Estilos para Dispositivos Movil */
+#headerNav .nitEmpresarial {
+    color: white;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headerNav .nitEmpresarial:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 200ms linear;
+}
+
+#menuNav { background-color: rgba(75, 81, 93, 0.233); }
+
+#menuNav span { font-size: 1.2rem; }
+
+#menuNav button { border: 1px solid white; }
+
+#menuNav .fa-bars {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#menuNav a, span {
+    color: white;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menuNav a:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 300ms linear;
+}
+
+#clikNav a { padding-top: 0.5rem; }
+
+/* Estilos para Pantalla FullScreen */
+@media (min-width : 1200px) {
+
+    #headerNav .nitEmpresarial { padding-left: 1.8rem; }
+
+    #menuNav a { padding: 0px 0.8rem; }
+}
+
+

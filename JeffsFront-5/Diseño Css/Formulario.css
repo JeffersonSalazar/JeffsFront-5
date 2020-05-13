@@ -1,0 +1,32 @@
+/* Estilos para Dispositivos Movil */
+#formulario {
+    margin: 4rem 0;
+}
+
+#formulario h2 {
+    color: white;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formulario .formEdit {
+    background-color: white;
+    border-radius: 2%;
+}
+
+#formulario [type="text"], [type="password"] {
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+#formulario [type="submit"] {
+    color: white;
+    background-color: #00C851;
+    box-shadow: 0 0.15rem 0.5rem 0 rgba(0, 0, 0, 0.3);
+}
+
+#formulario [type="submit"]:hover {
+    box-shadow: 0 0.35rem 0.5rem 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.2s linear;
+}
+/* Estilos para Pantalla FullScreen */

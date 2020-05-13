@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Contenedor Padre */
+#contentPadre {
+    background-image: url(../Imagenes/fondo-min-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#contentPadre h2, h4 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#contentPadre h5 {
+    font-size: 2rem;
+    font-family: 'Lacquer', sans-serif;
+}
+
+/* Estilos Carrusel */
+#carrusel p {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+/* Estilos Linea Divisoria */
+#linesDivisoria hr {
+    border: 2px solid rgba(255, 255, 255, 0.315);   
+}
+
+/* Estilo TextArea */
+#textAr textarea {
+    min-height: 10rem;
+    max-height: 10rem;
+}
+
+#textAr [type="submit"] {
+    color: white;
+    padding: 0.5rem 2rem;
+    margin: 2rem 0 4rem 0;
+    background-color: #00C851;
+}
+
+/* Cuestinario */
+#cuestionario { margin: 5rem 0; }
+
+/* Comentarios */
+#coment {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Web Site</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="Librerias/MDB/bootstrap.min.css">
+  <!-- Diseños Css -->
+  <link rel="stylesheet" href="Diseño Css/Generales.css">
+  <link rel="stylesheet" href="Diseño Css/HeaderNav.css">
+  <link rel="stylesheet" href="Diseño Css/Articulos.css">
+  <link rel="stylesheet" href="Diseño Css/Formulario.css">
+  <link rel="stylesheet" href="Diseño Css/Footer.css">
+  <!-- Iconos Fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Fuentes -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer|Noto+Sans|Sriracha|Tomorrow&display=swap">
+</head>
+
+<body>
+  <div class="container border px-5" id="contentPadre">
+
+    <!-- HeaderNav -->
+    <header id="headerNav">
+      <div class="mt-5">
+          <a href="#" class="navbar-brand nitEmpresarial">Proyecto Web</a>
+      </div>
+
+      <div id="menuNav">
+        <nav class="navbar navbar-expand-lg">
+          <span class="d-lg-none">MENU</span>
+        
+          <button class="navbar-toggler" 
+            type="button" data-toggle="collapse" 
+            data-target="#clikNav" aria-controls="clikNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="clikNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="Index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Propositos.html">PROPOSITOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Logros.html">LOGROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Metas.html">METAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Proyectos.html">PROYECTOS</a>
+              </li>
+            </ul>
+  
+            <form class="form-inline">
+              <input type="text" class="form-control w-75" placeholder="Search" aria-label="Search">
+              <a href="#"><i class="fas fa-search p-2 text-white"></i></a>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Carrusel -->
+    <div class="carousel my-5" data-ride="carousel" id="carrusel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="Imagenes/img-min-2.jpg" class="w-100" height="400" alt="slide1">
+          <div class="carousel-caption">
+            <h5>Castillo Moontiel</h5>
+            <p>Se dice que en este enorme castillo habitan criaturas mitologicas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/img-min-3.jpg" class="w-100" height="400" alt="slide2">
+          <div class="carousel-caption">
+            <h5>Bosque de Bangladesh</h5>
+            <p>Es un hermoso bosque a las afueras de un pueblo encantado.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/img-min-4.jpg" class="w-100" height="400" alt="slide3">
+          <div class="carousel-caption">
+            <h5>Arbol de la vida</h5>
+            <p>Reconocido por ser un arbol de mas de 200 años.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+        <i class="fas fa-arrow-left" aria-hidden="true"></i>
+      </a>
+      <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+
+      <ol class="navbar-nav mt-3">
+        <div class="row justify-content-center">
+        <li data-target="#carrusel" data-slide-to="0" class="active" alt="img1" title="Castillo Moontiel">
+          <img src="Imagenes/img-min-2.jpg" width="100" height="50">
+        </li>
+        <li class="px-3" data-target="#carrusel" data-slide-to="1">
+          <img src="Imagenes/img-min-3.jpg" width="100" height="50" alt="img2" title="Bosque de Bangladesh">
+        </li>
+        <li data-target="#carrusel" data-slide-to="2">
+          <img src="Imagenes/img-min-4.jpg" width="100" height="50" alt="img3" title="Laguna de Austria">
+        </li>
+      </div>
+      </ol>
+    </div>
+
+    <!-- Liena Divisoria -->
+    <div class="container" id="linesDivisoria">
+      <hr>
+    </div>
+
+    <!-- Articulos -->
+    <div class="" id="articulos">   
+      <div class="row py-5">
+        <div class="col-lg-8 text-justify">
+            <h2 class="">Bienvenido al POST</h2>
+            <span class="text-muted small">Articulo publiacado el 30 de mayo</span>
+            <p class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Explicabo eveniet quam, aliquam earum, ut iste perferendis maiores 
+              placeat tempore eos totam doloribus corrupti illo eaque nam ea inventore 
+              laborum perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Ipsa enim fugit delectus ea provident obcaecati laudantium beatae 
+              expedita numquam voluptatum, possimus excepturi veritatis quos maxime
+              rem voluptatem? Officiis dignissimos tenetur id atque tempore, 
+              exercitationem temporibus rem. Ipsam nobis id cumque, culpa, maxime, 
+              similique modi deleniti delectus eveniet consequatur eius cum?</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Explicabo eveniet quam, aliquam earum, ut iste perferendis maiores 
+              placeat tempore eos totam doloribus corrupti illo eaque nam ea inventore 
+              laborum perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Ipsa enim fugit delectus ea provident obcaecati laudantium beatae 
+              expedita numquam voluptatum, possimus excepturi veritatis quos maxime
+              rem voluptatem? Officiis dignissimos tenetur id atque tempore, 
+              exercitationem temporibus rem. Ipsam nobis id cumque, culpa, maxime, 
+              similique modi deleniti delectus eveniet consequatur eius cum?</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Explicabo eveniet quam, aliquam earum, ut iste perferendis maiores 
+              placeat tempore eos totam doloribus corrupti illo eaque nam ea inventore 
+              laborum perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> 
+        </div>
+        <div class="col-lg-4 card mt-3 mt-lg-0 bgCard">
+          <div class="card-header text-center">
+            <h4 class="white-text pt-2">LO DE HOY!</h4>
+          </div>
+            <img src="Imagenes/img-min-1.jpg" class="img-fluid img-thumbnail my-3" alt="imagen" title="Atardecer Australiano">
+          <div class="card-body">
+            <p class="card-text text-justify">laborum perspiciatis! Lorem ipsum Ipsa 
+              enim fugit delectus ea provident. tempore eos totam doloribus corrupti amet 
+              consectetur adipisicing elit.<br>
+              Explicabo eveniet quam, aliquam Ipsa enim 
+              fugit delectus ea provident. tempore eos totam.</p>
+          </div>  
+          <div class="card-footer">
+            <span>By Jefferson Salazar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Linea Divisoria -->
+    <div class="container" id="linesDivisoria">
+      <hr>
+    </div>
+
+    <!-- Text Area -->
+    <div class="col-12 col-lg-4 mx-auto" id="textAr">
+      <div class="mt-5">
+        <textarea class="form-control" placeholder="Dejanos tu comentario" id="comentario"></textarea>
+      </div>
+      <div class="text-center">
+        <input type="submit" value="Enviar" class="btn" id="botonEnviar">
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="" id="footer">
+        <span class="text-white">Copyright &copy; derechos reservados</span>
+      <div class="">
+        <a href="#"><i class="fab fa-facebook-f btn iconos" title="Ir a Facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram btn iconos" title="Ir a Instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter btn iconos" title="Ir a Twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in btn iconos" title="Ir a Linkedin"></i></a>
+      </div>   
+        <span><i class="fas fa-chevron-up goTop" title="Volver arriba"></i></span>
+    </footer>
+  
+  </div>  
+
+  <!-- Script Bootstrap -->
+  <script src="Librerias/JS/jquery.min.js"></script>
+  <script src="librerias/JS/mdb.min.js"></script>
+  <script src="Librerias/JS/popper.min.js"></script>
+  <script src="Librerias/JS/bootstrap.min.js"></script>
+  <!-- Script jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Script JS -->
+  <script src="program.js"></script>
+</body>
+</html>

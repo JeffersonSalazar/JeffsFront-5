@@ -1,0 +1,58 @@
+/* Estilos para Dispositivo Movil */
+#footer {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+#footer .iconos {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+}
+
+#footer .fa-facebook-f {
+    background-color: #4285F4; 
+}
+
+#footer .fa-facebook-f:hover {
+    background-color: white;
+    color: #4285F4;
+}
+
+#footer .fa-instagram {
+    background-color: #f57c00;
+}
+
+#footer .fa-instagram:hover {
+    background-color: white;
+    color: #f57c00;
+}
+
+#footer .fa-twitter {
+    background-color: #33b5e5; 
+}
+
+#footer .fa-twitter:hover {
+    background-color: white;
+    color: #33b5e5;
+}
+
+#footer .fa-linkedin-in {
+    background-color: #2BBBAD;  
+}
+
+#footer .fa-linkedin-in:hover {
+    background-color: white;
+    color: #2BBBAD;
+}
+
+#footer .fa-chevron-up {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+/* Estilos para Pantalla FullScreen */
